@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./index.css"/>
+    </head>
+    <body>
+        <div class="main-container" id="mainContainer">
+            <div class="responsive-container">
+                <h1 class="heading"> Weather App</h1>
+                <div class="search-container">
+                    <div class="search-bar-container">
+                        <label htmlfor="searchBar" class="label"> City Name </label>
+                        <input type="text" id="searchBar" class="input-bar" placeholder="Enter the City Name.." />
+                    </div>
+                    <button id="submitBtn" class="submit-btn"> Get Weather</button>
+                </div>
+
+                <div class="details-container" id="cityDetailsContainer">
+                    <p class="city-name"> Weather Of: <span class="text" id="cityName"></span></p>
+                    <p class="sky-condition"> Sky Condition: <span class="text" id="cityCondition"> </span></p>
+                    <p class="temperature"> Temperature: <span class="text" id="cityTemp"></span><sup>o</sup></p>
+                    <p class="wind-speed"> Wind Speed: <span class="text" id="cityWindSpeed"></span> km/hr</p>
+                </div>
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

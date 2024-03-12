@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/drnrrd97f/image/upload/v1707999528/wa_m5jfcp.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+.responsive-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+
+.search-container{
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 5px 1px 16px 2px #171615;
+}
+.search-bar-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-bar{
+    height: 32px;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 12px;
+    border: 1px solid grey;
+    box-shadow: 1px 0 5px 0 #1a1f1f;
+    font-family: 'Roboto';
+    font-size: 14px;
+
+}
+
+.label{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 6px;
+
+}
+.submit-btn{
+    width: 90%;
+    margin-top: 15px;
+    background-image: linear-gradient(to left, rgb(245, 115, 16), black, rgb(0, 7, 138)) ;
+    border: 1px solid rgb(242, 239, 239);
+    border-radius: 6px;
+    font-family: 'Roboto';
+    height: 32px;
+    color: whitesmoke;
+    font-weight: 500;
+    
+    
+}
+.submit-btn:hover{
+    background-image: linear-gradient(to right, rgb(245, 115, 16), black, blue) ;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.details-container{
+    background-color: aliceblue;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 6px;
+    box-shadow: 5px 1px 16px 2px #171615;
+
+}
+.city-name{
+    background-image: linear-gradient(to left, rgb(244, 248, 245), rgb(16, 187, 244)) ;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Roboto';
+    box-shadow: 1px 0 5px 0 #1a1f1f;
+}
+.sky-condition{
+    margin-top: 0;
+    font-family: 'Roboto';
+    color: #323f4b;
+}
+.temperature{
+    font-family: 'Roboto';
+    margin-top: 0;
+    color: #323f4b;
+
+}
+.wind-speed{
+    font-family: 'Roboto';
+    margin-top: 0;
+    color: #323f4b;
+}
+
+.text{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Bree Serif';
+    border-bottom: 2px solid rgb(230, 2, 36);
+}
